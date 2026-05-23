@@ -1,0 +1,172 @@
+aid: sei-investments
+url: https://raw.githubusercontent.com/api-evangelist/sei-investments/refs/heads/main/apis.yml
+name: SEI Investments
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Financial Services
+  - Wealth Management
+  - Asset Management
+  - Investment Processing
+  - Fund Administration
+  - Outsourced CIO
+  - Wealth Platform
+description: >-
+  SEI Investments Company (NASDAQ: SEIC) is a publicly traded financial
+  services and technology provider founded in 1968 and headquartered in Oaks,
+  Pennsylvania. SEI delivers end-to-end technology, operations, and asset
+  management solutions to asset managers, banks and wealth managers, financial
+  advisors, and institutional investors. Marquee platforms include the SEI
+  Wealth Platform (front-to-back wealth management technology and outsourced
+  operations), SEI Data Cloud (managed near-real-time data platform), SEI
+  Sphere (managed IT, cybersecurity, cloud, and network operations), and SEI
+  Novus (institutional portfolio analytics). SEI does not run a public
+  developer portal — partner and client integrations are delivered through
+  contractual onboarding to the SEI Wealth Platform, SEI Connect advisor
+  channels, and managed-service engagements rather than self-serve OpenAPI or
+  SDK distribution.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+x-no-public-api: true
+x-no-public-api-reason: >-
+  SEI Investments does not publish a public developer portal, OpenAPI
+  specifications, SDKs, sandbox environments, or self-serve API keys. The SEI
+  Wealth Platform, SEI Data Cloud, SEI Sphere, SEI Novus, and SEI Access for
+  CITs are delivered to institutional clients (banks, RIAs, asset managers,
+  pension plans) under contract, with integrations arranged through SEI
+  onboarding, professional services, and partner programs. There is no
+  developer.seic.com, api.seic.com, or public GitHub organization for SEI as
+  of this profiling. The "SEI Connect" naming sometimes referenced in advisor
+  partner contexts is not a public API product with documentation or
+  specifications available outside contractual relationships.
+common:
+  - type: Website
+    url: https://www.seic.com/
+  - type: AboutUs
+    url: https://www.seic.com/about-sei/overview
+  - type: AssetManagersOverview
+    url: https://www.seic.com/asset-managers/overview
+  - type: BanksAndWealthManagersOverview
+    url: https://www.seic.com/banks-and-wealth-managers/overview
+  - type: FinancialAdvisorsOverview
+    url: https://www.seic.com/financial-advisors/overview
+  - type: InstitutionalInvestorsOverview
+    url: https://www.seic.com/institutional-investors/overview
+  - type: Blog
+    url: https://www.seic.com/insights
+  - type: Newsroom
+    url: https://www.seic.com/about-sei/newsroom
+  - type: InvestorRelations
+    url: https://ir.seic.com/
+  - type: Careers
+    url: https://careers.seic.com/
+  - type: Locations
+    url: https://www.seic.com/about-sei/locations
+  - type: ContactUs
+    url: https://www.seic.com/about-sei/contact-us
+  - type: Login
+    url: https://www.seic.com/ent/client-site-logins-and-contact-information
+  - type: PrivacyPolicy
+    url: https://www.seic.com/ent/privacy-notice
+  - type: TermsOfService
+    url: https://www.seic.com/ent/terms-use
+  - type: CookiePolicy
+    url: https://www.seic.com/ent/cookie-policy
+  - type: AccessibilityStatement
+    url: https://www.seic.com/ent/accessibility-statement
+  - type: CodeOfConduct
+    url: https://www.seic.com/ent/code-conduct-and-corporate-governance
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sei-investments-company/
+  - type: Sitemap
+    url: https://www.seic.com/sitemap.xml
+  - type: Robots
+    url: https://www.seic.com/robots.txt
+platforms:
+  - name: SEI Wealth Platform
+    description: >-
+      Modern, fully integrated wealth management technology and outsourced
+      operations solution used by banks, trust companies, and wealth managers.
+      Selected by clients including Huntington National Bank (March 2026).
+    audience: Banks and Wealth Managers
+  - name: SEI Data Cloud
+    description: >-
+      Fully managed data platform providing seamless access to near real-time
+      data for banks and wealth managers.
+    audience: Banks and Wealth Managers
+  - name: SEI Sphere
+    description: >-
+      Managed IT services platform delivering cybersecurity, cloud
+      infrastructure, and network operations to financial services clients.
+    audience: All segments
+  - name: SEI Novus
+    description: >-
+      Institutional portfolio analytics and reporting platform offering total
+      portfolio visibility and flexible reporting for OCIO clients, pensions,
+      endowments, and foundations.
+    audience: Institutional Investors
+  - name: SEI Access for CITs
+    description: >-
+      Digital onboarding solution for Collective Investment Trusts launched in
+      April 2026 to modernize the CIT onboarding experience across the
+      retirement ecosystem.
+    audience: Asset Managers / Retirement
+  - name: Investment Manager Technologies
+    description: >-
+      Proprietary, integrated technology solutions for asset managers
+      covering fund accounting, administration, distribution, and operations.
+    audience: Asset Managers
+  - name: SEI Private Trust Company
+    description: >-
+      Federally chartered limited purpose savings association and wholly
+      owned SEI subsidiary providing integrated custody for RIAs and hybrid
+      advisors.
+    audience: Financial Advisors
+  - name: SEI Investments Management Corporation
+    description: >-
+      Federally registered investment advisor and wholly owned SEI subsidiary
+      delivering curated investment strategies and OCIO services.
+    audience: All segments
+segments:
+  - name: Asset Managers
+    solutions:
+      - Fund Administration
+      - Investment Operations Outsourcing
+      - Investment Manager Technologies
+      - Regulatory and Compliance Services
+      - Collective Investment Trust Services
+      - Managed IT Services
+  - name: Banks and Wealth Managers
+    solutions:
+      - SEI Wealth Platform
+      - Investment Solutions
+      - SEI Data Cloud
+      - Professional Services
+      - SEI Sphere (Managed IT)
+  - name: Financial Advisors
+    solutions:
+      - Advisor Technology
+      - Integrated Custody
+      - Investment Solutions
+      - Advisor Services
+  - name: Institutional Investors
+    solutions:
+      - Outsourced CIO (OCIO)
+      - Unbundled OCIO
+      - Alternative Investment Solutions
+      - Portfolio Analytics (SEI Novus)
+      - Managed IT Services
+strategicPartners:
+  - name: Carlyle
+    description: >-
+      Strategic partnership expanded April 30, 2026 to broaden private market
+      access for both wealth and retirement distribution channels.
+  - name: LSV Asset Management
+    description: >-
+      Significant stake held by SEI since 1994 investment; quantitative
+      equity manager.
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
