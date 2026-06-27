@@ -3,16 +3,10 @@
   "feeds": [
     {
       "source": "https://www.seic.com/insights",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://www.seic.com/institutional-investors/overview",
-      "feed_url": "https://www.seic.com/institutional-investors/overview",
-      "title": "",
       "saved": 0,
-      "method": "none"
+      "error": "HTTP 403 Forbidden"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:09:22Z"
 }
