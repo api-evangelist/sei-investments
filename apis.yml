@@ -42,6 +42,8 @@ x-no-public-api-reason: >-
   partner contexts is not a public API product with documentation or
   specifications available outside contractual relationships.
 common:
+  - type: DomainSecurity
+    url: security/sei-investments-domain-security.yml
   - type: Website
     url: https://www.seic.com/
   - type: AboutUs
