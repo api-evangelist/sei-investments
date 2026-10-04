@@ -26,7 +26,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sei-investments.png
 tags:
-  - Financial-Services
+  - Financial Services
   - Wealth Management
   - Asset Management
   - Investment Processing
@@ -41,6 +41,7 @@ tags_raw:
   - Fund Administration
   - Outsourced CIO
   - Wealth Platform
+  - Financial-Services
 description: >-
   SEI Investments Company (NASDAQ: SEIC) is a publicly traded financial
   services and technology provider founded in 1968 and headquartered in Oaks,
