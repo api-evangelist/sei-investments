@@ -57,7 +57,7 @@ description: >-
   channels, and managed-service engagements rather than self-serve OpenAPI or
   SDK distribution.
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 x-no-public-api: true
@@ -73,6 +73,8 @@ x-no-public-api-reason: >-
   partner contexts is not a public API product with documentation or
   specifications available outside contractual relationships.
 common:
+  - url: https://www.seic.com/rss.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/sei-investments-domain-security.yml
   - type: Website
