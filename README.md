@@ -1,4 +1,4 @@
-# SEI Investments (sei-investments)
+# SEI Investments
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,69 +66,80 @@
 
 SEI Investments Company (NASDAQ: SEIC) is a publicly traded financial services and technology provider founded in 1968 and headquartered in Oaks, Pennsylvania. SEI delivers end-to-end technology, operations, and asset management solutions to asset managers, banks and wealth managers, financial advisors, and institutional investors. Marquee platforms include the SEI Wealth Platform (front-to-back wealth management technology and outsourced operations), SEI Data Cloud (managed near-real-time data platform), SEI Sphere (managed IT, cybersecurity, cloud, and network operations), and SEI Novus (institutional portfolio analytics). SEI does not run a public developer portal — partner and client integrations are delivered through contractual onboarding to the SEI Wealth Platform, SEI Connect advisor channels, and managed-service engagements rather than self-serve OpenAPI or SDK distribution.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/sei-investments/refs/heads/main/apis.yml)
+**Areas:** Financial Services · Wealth Management · Asset Management · Investment Processing · Fund Administration · Outsourced CIO · Wealth Platform
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=sei-investments-api-evangelist&utm_content=repo)
+## SEI Investments on APIs.io
 
-## Tags
+Everything profiled for SEI Investments is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sei-investments/](https://apis.io/providers/sei-investments/)** — or go straight to one of the APIs or properties below.
 
-- Financial Services, Wealth Management, Asset Management, Investment Processing, Fund Administration, Outsourced CIO, Wealth Platform
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-SEI Investments does not publish a public developer portal, OpenAPI specifications, SDKs, sandbox environments, or self-serve API keys. The SEI Wealth Platform, SEI Data Cloud, SEI Sphere, SEI Novus, and SEI Access for CITs are delivered to institutional clients (banks, RIAs, asset managers, pension plans) under contract, with integrations arranged through SEI onboarding, professional services, and partner programs. There is no `developer.seic.com`, `api.seic.com`, or public GitHub organization for SEI as of this profiling. The "SEI Connect" naming sometimes referenced in advisor partner contexts is not a public API product with documentation or specifications available outside contractual relationships.
+- [Sei Investments Domain Security](https://apis.io/security/sei-investments/sei-investments-domain-security/)
 
-## Platforms
+## Where to find this API
 
-- **SEI Wealth Platform** — Modern, fully integrated wealth management technology and outsourced operations solution used by banks, trust companies, and wealth managers. Notably selected by Huntington National Bank (March 2026).
-- **SEI Data Cloud** — Fully managed data platform providing seamless access to near real-time data for banks and wealth managers.
-- **SEI Sphere** — Managed IT services platform delivering cybersecurity, cloud infrastructure, and network operations.
-- **SEI Novus** — Institutional portfolio analytics and reporting platform for OCIO clients, pensions, endowments, and foundations.
-- **SEI Access for CITs** — Digital onboarding solution for Collective Investment Trusts launched April 2026.
-- **Investment Manager Technologies** — Proprietary, integrated tech for asset managers (fund accounting, administration, distribution, operations).
-- **SEI Private Trust Company** — Federally chartered limited purpose savings association providing integrated custody for RIAs and hybrid advisors.
-- **SEI Investments Management Corporation** — Federally registered investment advisor delivering curated investment strategies and OCIO services.
-
-## Segments Served
-
-- **Asset Managers** — Fund Administration, Investment Operations Outsourcing, Investment Manager Technologies, Regulatory and Compliance Services, Collective Investment Trust Services, Managed IT Services
-- **Banks and Wealth Managers** — SEI Wealth Platform, Investment Solutions, SEI Data Cloud, Professional Services, SEI Sphere
-- **Financial Advisors** — Advisor Technology, Integrated Custody, Investment Solutions, Advisor Services
-- **Institutional Investors** — Outsourced CIO (OCIO), Unbundled OCIO, Alternative Investment Solutions, SEI Novus Portfolio Analytics, Managed IT Services
-
-## Strategic Partners
-
-- **Carlyle** — Partnership expanded April 30, 2026 to broaden private market access across wealth and retirement distribution channels.
-- **LSV Asset Management** — SEI has held a significant stake since 1994; quantitative equity manager.
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.seic.com/)
-- [About SEI](https://www.seic.com/about-sei/overview)
-- [Asset Managers Overview](https://www.seic.com/asset-managers/overview)
-- [Banks and Wealth Managers Overview](https://www.seic.com/banks-and-wealth-managers/overview)
-- [Financial Advisors Overview](https://www.seic.com/financial-advisors/overview)
-- [Institutional Investors Overview](https://www.seic.com/institutional-investors/overview)
-- [Insights / Blog](https://www.seic.com/insights)
-- [Newsroom](https://www.seic.com/about-sei/newsroom)
-- [Investor Relations](https://ir.seic.com/)
-- [Careers](https://careers.seic.com/)
-- [Locations](https://www.seic.com/about-sei/locations)
-- [Contact Us](https://www.seic.com/about-sei/contact-us)
-- [Client Logins](https://www.seic.com/ent/client-site-logins-and-contact-information)
-- [Privacy Notice](https://www.seic.com/ent/privacy-notice)
-- [Terms of Use](https://www.seic.com/ent/terms-use)
-- [Cookie Policy](https://www.seic.com/ent/cookie-policy)
-- [Code of Conduct](https://www.seic.com/ent/code-conduct-and-corporate-governance)
-- [LinkedIn](https://www.linkedin.com/company/sei-investments-company/)
+- [Blog](https://www.seic.com/insights)
+- [Terms of service](https://www.seic.com/ent/terms-use)
+- [Privacy policy](https://www.seic.com/ent/privacy-notice)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sei-investments/](https://apis.io/providers/sei-investments/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SEI Investments: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sei-investments/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
